@@ -1,0 +1,8 @@
+def fm(rooms):
+    for i in range(len(rooms)):
+        if rooms[i] == "0":
+            return i
+    return "None availablle!"
+print(fm(["X","X","0", "0", "X"]))
+print(fm(["X","X", "X"]))
+print(fm(["0", "X","0"]))
